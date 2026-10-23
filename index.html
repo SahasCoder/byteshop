@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#edf1ea" />
-  <meta name="description" content="AURUM ELECTRONICS — carefully presented PC components, motherboard details, and practical hardware for your next build." />
-  <title>AURUM ELECTRONICS — PC Components</title>
-  <link rel="icon" type="image/png" href="assets/aurum-emblem.png" />
-  <link rel="shortcut icon" type="image/png" href="assets/aurum-emblem.png" />
-  <link rel="apple-touch-icon" href="assets/aurum-emblem.png" />
+  <meta name="theme-color" content="#050914" />
+  <meta name="description" content="BYTE SHOP — carefully presented PC components, motherboard details, and practical hardware for your next build." />
+  <title>BYTE SHOP — PC Components</title>
+  <link rel="icon" type="image/png" href="assets/byte-shop-logo.png" />
+  <link rel="shortcut icon" type="image/png" href="assets/byte-shop-logo.png" />
+  <link rel="apple-touch-icon" href="assets/byte-shop-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Epilogue:wght@400;500;600;700;800&family=Sometype+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --glass:#f2f6fb; --glass-2:#e7eef7; --glass-3:#d8e4f3; --paper:#fcfdff;
-      --forest:#101c30; --forest-2:#2b3e59; --forest-3:#5e7089; --forest-4:#8a9ab0;
-      --hairline:#d1ddec; --hairline-soft:#e2eaf4; --ochre:#2675db; --ochre-deep:#1559b4;
-      --stock:#2475d2; --stock-wash:rgba(36,117,210,.12); --font-display:'Epilogue',ui-sans-serif,system-ui,sans-serif;
+      --glass:#edf4ff; --glass-2:#dfeaff; --glass-3:#c8dcff; --paper:#ffffff;
+      --forest:#06152f; --forest-2:#102c55; --forest-3:#3f5d85; --forest-4:#7189aa;
+      --hairline:#c8d8f0; --hairline-soft:#dce7f7; --ochre:#00cfff; --ochre-deep:#0878ff;
+      --stock:#0878ff; --stock-wash:rgba(0,207,255,.13); --font-display:'Epilogue',ui-sans-serif,system-ui,sans-serif;
       --font-body:'Be Vietnam Pro',ui-sans-serif,system-ui,sans-serif; --font-mono:'Sometype Mono',ui-monospace,monospace;
       --gutter:clamp(18px,4.4vw,68px); --maxw:1440px; --r-sm:5px; --r-md:9px; --r-lg:15px; --r-pill:999px;
-      --shadow-sm:0 1px 2px rgba(16,28,48,.07); --shadow-md:0 18px 44px -24px rgba(16,28,48,.38);
+      --shadow-sm:0 1px 2px rgba(6,21,47,.08); --shadow-md:0 18px 44px -24px rgba(6,21,47,.34);
       --ease:cubic-bezier(.22,1,.36,1);
     }
     *,*::before,*::after{box-sizing:border-box}*{margin:0}html{scroll-behavior:smooth;scroll-padding-top:100px;-webkit-text-size-adjust:100%;overflow-x:clip}
@@ -203,7 +203,7 @@
     @media(max-width:600px){.catalogue-insight-grid{gap:12px}.portfolio-principle-mark{width:68px;height:68px}}
 
 
-    /* AURUM brand assets and storefront image resilience */
+    /* BYTE SHOP brand assets and storefront image resilience */
     .brand-mark{background:#f8f6f0}
     .brand-mark img{display:block;width:100%;height:100%;object-fit:cover}
     .profile-mark{background:#f8f6f0;overflow:hidden;padding:0;line-height:0}
@@ -213,19 +213,19 @@
     .product-media img.product-cutout,.product-media img.product-fallback-image{object-fit:contain;padding:12px;background:var(--glass-2)}
     .product-detail-visual img.product-cutout,.product-detail-visual img.product-fallback-image{object-fit:contain;padding:22px;background:var(--glass-2)}
     .drawer-period{border:1px solid rgba(251,252,250,.2);border-radius:var(--r-pill);padding:4px 7px;color:#d8e2d2;font:500 7px var(--font-mono);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
-    .aurum-3d-chart{display:block;width:100%;height:auto;padding:5px 10px 0;overflow:visible}
-    .aurum-3d-chart text{font-family:var(--font-mono);fill:var(--forest-3);font-size:9px}
-    .aurum-3d-chart .bar-front{fill:#2675db}
-    .aurum-3d-chart .bar-side{fill:#154f8c}
-    .aurum-3d-chart .bar-top{fill:#8bc8ff}
-    .aurum-3d-chart .bar-base{stroke:#d8e2d2;stroke-width:1}
-    .aurum-3d-chart .bar-value{fill:var(--forest-2);font-weight:600;font-size:9px}
+    .byte-shop-3d-chart{display:block;width:100%;height:auto;padding:5px 10px 0;overflow:visible}
+    .byte-shop-3d-chart text{font-family:var(--font-mono);fill:var(--forest-3);font-size:9px}
+    .byte-shop-3d-chart .bar-front{fill:#2675db}
+    .byte-shop-3d-chart .bar-side{fill:#154f8c}
+    .byte-shop-3d-chart .bar-top{fill:#8bc8ff}
+    .byte-shop-3d-chart .bar-base{stroke:#d8e2d2;stroke-width:1}
+    .byte-shop-3d-chart .bar-value{fill:var(--forest-2);font-weight:600;font-size:9px}
     .analysis-insight-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:3px 22px 20px;color:var(--forest-3);font-size:9px}
     .analysis-insight-foot strong{color:var(--forest);font-weight:600}
     .analysis-table td .soldout-status{background:#f3e8df;color:#89553c}
     .analysis-table td .soldout-status::before{background:#8193ad}
     @media(max-width:760px){.analysis-head{align-items:flex-start;flex-direction:column}.analysis-head-tools{justify-content:flex-start}.analysis-main-grid{grid-template-columns:1fr}.metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:470px){.metric-card{padding:15px}.metric-value{font-size:22px}.analysis-insight-foot{padding-inline:14px}.aurum-3d-chart{padding-inline:2px}}
+    @media(max-width:470px){.metric-card{padding:15px}.metric-value{font-size:22px}.analysis-insight-foot{padding-inline:14px}.byte-shop-3d-chart{padding-inline:2px}}
 
 
     /* Final mobile usability refinements */
@@ -267,20 +267,112 @@
       .footer-inner{gap:20px;}
     }
     @media(prefers-reduced-motion:reduce){.product-filter-row{scroll-behavior:auto;}}
+  
+
+    /* BYTE SHOP dark theme: deep black/navy surfaces with electric-blue and cyan accents */
+    :root{
+      color-scheme:dark;
+      --glass:#040812; --glass-2:#091426; --glass-3:#10213b; --paper:#080e19;
+      --forest:#eef7ff; --forest-2:#c5ddfb; --forest-3:#8da8ca; --forest-4:#617da3;
+      --hairline:#203854; --hairline-soft:#152a45; --ochre:#00d9ff; --ochre-deep:#0878ff;
+      --stock:#00cfff; --stock-wash:rgba(0,207,255,.16);
+      --shadow-sm:0 1px 3px rgba(0,0,0,.28); --shadow-md:0 18px 44px -24px rgba(0,0,0,.8);
+    }
+    html,body{background:#040812;color:#eef7ff}
+    body{background:var(--glass);color:var(--forest)}
+    .announcement{background:#02050b;color:#eaf6ff}
+    .site-header{background:rgba(4,8,18,.93);border-bottom-color:rgba(32,56,84,.88)}
+    .menu-trigger{color:#dff7ff}
+    .menu-trigger:hover{background:#10223a;border-color:#0878ff}
+    .brand-mark,.profile-mark{background:#050a14;border-color:#14527d}
+    .profile-mark{color:#00d9ff}
+    .brand-sub,.section-label,.section-intro,.product-type,.product-desc,.note-copy,footer,.panel-caption,.metric-label,.metric-foot,.drawer-nav a{color:var(--forest-3)}
+    .hero-shell{background:#030813}
+    .hero h1 em,.feedback-closing h2 em,.portfolio-closing h2 em{color:#00d9ff}
+    .button{background:linear-gradient(105deg,#00d9ff,#0878ff);color:#00101a}
+    .button:hover{background:linear-gradient(105deg,#51edff,#268aff)}
+    .text-link{border-color:#38618a}
+    .product-media,.product-detail-visual,.feedback-hero-visual,.portfolio-story-photo{background:#07101e}
+    .product-media img,.product-detail-visual img{background:transparent}
+    .product-media img.product-cutout,.product-media img.product-fallback-image,.product-detail-visual img.product-cutout,.product-detail-visual img.product-fallback-image{background:transparent}
+    .product-tag,.quick-view,.demo-badge,.feedback-quote-sticker,.product-detail-image-label{background:rgba(5,13,27,.94);color:#dff7ff;border:1px solid #173d5e}
+    .quick-view{color:#eaf7ff}
+    .live-dot,.stock-line,.stock-line.is-out-of-stock{color:#8bdfff}
+    .bottom-note,.feedback-success-next,.product-spec,.catalogue-source-strip{background:#091426;border-color:#1b3452}
+    .note-icon,.feedback-promise-icon,.testimonials-empty-icon,.catalogue-source-icon,.placeholder-icon{background:#0c1b30;border-color:#214060;color:#88dfff}
+    .announcement,.drawer-summary,.toast,.feedback-closing,.portfolio-closing{background:#030712;color:#edf7ff}
+    .drawer-summary{border:1px solid #132e4d}
+    .drawer-summary-label,.drawer-revenue-sub,.drawer-mini-stat span,.drawer-summary .drawer-demo{color:#9ab3d3}
+    .drawer-demo,.drawer-period{border-color:#254465;color:#99dfff}
+    .drawer-summary::after{border-color:rgba(0,207,255,.16);box-shadow:0 0 0 15px rgba(0,207,255,.035),0 0 0 31px rgba(0,207,255,.02)}
+    .drawer-nav a{border-bottom-color:#172c46;color:#c5ddfb}
+    .drawer-nav a[aria-current="page"]{background:#102843;color:#eafaff}
+    .drawer-nav a[aria-current="page"]::before{background:#00d9ff}
+    .drawer-nav a[aria-current="page"] svg{color:#00d9ff}
+    .drawer{background:#050b16;border-right:1px solid #203854}
+    .drawer-scrim{background:rgba(0,0,0,.72)}
+    .period-pill,.metric-card,.analysis-panel,.placeholder-card,.feedback-review-card,.feedback-form-card,.portfolio-story-panel,.portfolio-owner-card,.store-search,.store-sort-label,.product-size{background:#080e19;border-color:#1a304c;color:#eaf5ff}
+    .metric-icon,.panel-tag,.table-thumb,.placeholder-tag,.review-collection-tag,.product-size.product-feature,.portfolio-principle-mark,.feedback-pillar-icon,.feedback-review-card .feedback-pillar-label,.portfolio-owner-tags span{background:#0d1d33;border-color:#203c5d;color:#a8dfff}
+    .metric-change,.status-pill{background:#0b2b45;color:#79dcff}
+    .metric-change.neutral{background:#0d1d33;color:#a9bed9}
+    .revenue-chart .gridline,.catalogue-line-chart .gridline{stroke:#1c3552}
+    .revenue-chart .axisline,.catalogue-line-chart .axisline{stroke:#2b4968}
+    .revenue-chart text,.catalogue-line-chart text,.category-chart text{fill:#829dbc}
+    .chart-foot strong,.analysis-insight-foot strong{color:#eaf6ff}
+    .health-ring{background:conic-gradient(var(--stock) 0deg 223deg,#20344b 223deg 360deg)}
+    .health-ring::before{background:#080e19}
+    .status-pill::before{background:#00cfff}
+    .feedback-hero-visual{background:#07101e}
+    .feedback-visual-overlay{background:linear-gradient(0deg,rgba(2,7,17,.86),transparent 58%),linear-gradient(135deg,rgba(0,91,170,.15),transparent 60%)}
+    .feedback-caption-mark{border-color:rgba(0,217,255,.45);background:rgba(4,11,23,.7)}
+    .feedback-rating-summary,.portfolio-note,.product-filter-chip,.product-empty-state{background:rgba(8,20,38,.84);border-color:#1e3958;color:#a9bfd9}
+    .feedback-field input,.feedback-field select,.feedback-field textarea{background:#050b16;border-color:#25415f;color:#eef7ff}
+    .feedback-field input::placeholder,.feedback-field textarea::placeholder{color:#6f89aa}
+    .feedback-field select option,.store-sort-label select{background:#080e19;color:#eaf5ff}
+    .feedback-success-icon{background:#0b2c3f;color:#00d9ff}
+    .feedback-closing .section-label,.portfolio-closing .section-label{color:#8ba8cc}
+    .portfolio-brand-mark{background:#050b16;border-color:#0d4b76;color:#eef7ff;outline-color:#214362}
+    .portfolio-wordmark,.portfolio-brand-initials{color:#eef7ff}
+    .portfolio-owner-photo{border-color:#10213b}
+    .portfolio-note-dot{background:#00d9ff;box-shadow:0 0 0 3px rgba(0,217,255,.16)}
+    .product-card .product-tag,.soldout-tag{color:#9bc8e8;background:rgba(5,13,27,.96)}
+    .soldout-dot{background:#7893b3;box-shadow:0 0 0 3px rgba(120,147,179,.15)}
+    .status-pill.soldout-status,.analysis-table td .soldout-status{background:#172238;color:#b4c7df}
+    .status-pill.soldout-status::before,.analysis-table td .soldout-status::before{background:#8da8ca}
+    .product-detail-stock{background:#0b2238;border-color:#214361;color:#a6e4ff}
+    .product-detail-stock p{color:#8eaccd}
+    .button.button-disabled{background:#17243a;color:#748baa;border:1px solid #243d5b}
+    .button.button-secondary{background:transparent;border-color:#294b6c;color:#d9ecff}
+    .button.button-secondary:hover{background:#0d1d33}
+    .store-search:focus-within{border-color:#00cfff;box-shadow:0 0 0 3px rgba(0,207,255,.1)}
+    .store-sort-label select{color:#dff4ff}
+    .product-filter-chip[aria-pressed="true"]{background:#0d2947;border-color:#0878ff;color:#e9fbff}
+    .product-filter-chip:hover{border-color:#00cfff;color:#eefaff}
+    .availability-track{background:#152844}
+    .availability-track span{background:#0878ff}
+    .portfolio-principle-mark::after{border-color:rgba(0,207,255,.24)}
+    .drawer-catalogue-note{border-top-color:rgba(0,207,255,.18);color:#9bb5d4}
+    .brand-mark,.profile-mark{background:#050b16}
+    .portfolio-brand-mark{background:#050b16}
+    .analytics-disclaimer strong{color:#dceeff}
+    .footer-brand{color:#b9e7ff}
+    ::selection{background:rgba(0,207,255,.28);color:#fff}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
   </style>
 </head>
 <body>
-  <div class="announcement">AURUM ELECTRONICS · PC COMPONENTS, CHOSEN WITH CLARITY</div>
+  <div class="announcement">BYTE SHOP · PC COMPONENTS, CHOSEN WITH CLARITY</div>
   <header class="site-header">
     <div class="wrap header-inner">
       <div><button class="menu-trigger" id="menuTrigger" aria-label="Open menu" aria-expanded="false" aria-controls="siteDrawer">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button></div>
-      <a class="brand" href="#store" data-route="store" aria-label="AURUM ELECTRONICS home">
-        <span class="brand-mark" aria-hidden="true"><img src="assets/aurum-emblem.png" alt="" /></span>
-        <span><span class="brand-name">AURUM</span><span class="brand-sub">ELECTRONICS</span></span>
+      <a class="brand" href="#store" data-route="store" aria-label="BYTE SHOP home">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/byte-shop-logo.png" alt="" /></span>
+        <span><span class="brand-name">BYTE SHOP</span><span class="brand-sub">ELECTRONICS</span></span>
       </a>
-      <div class="header-right"><span class="profile-mark" aria-label="AURUM ELECTRONICS logo"><img src="assets/aurum-emblem.png" alt="" /></span></div>
+      <div class="header-right"><span class="profile-mark" aria-label="BYTE SHOP logo"><img src="assets/byte-shop-logo.png" alt="" /></span></div>
     </div>
   </header>
 
@@ -294,13 +386,13 @@
           <p class="hero-copy">Motherboards for practical PC builds and upgrades. Explore Intel and AMD platforms, compare key specifications, and find a foundation for your next system.</p>
           <a class="button" href="#exclusives">Explore boards <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12h14M12.5 5.5l6.5 6.5-6.5 6.5"/></svg></a>
         </div>
-        <span class="hero-footnote">AURUM ELECTRONICS · 2026</span>
+        <span class="hero-footnote">BYTE SHOP · 2026</span>
       </div>
     </section>
 
     <section class="section wrap" id="exclusives">
       <div class="section-head">
-        <div><p class="section-label">AURUM ELECTRONICS / 05 MOTHERBOARDS</p><h2>Featured boards<span style="color:var(--ochre)">.</span></h2><p class="section-intro">Explore boards for current AMD and Intel builds, plus a compact legacy platform. Check socket, processor generation, and memory compatibility before ordering.</p></div>
+        <div><p class="section-label">BYTE SHOP / 05 MOTHERBOARDS</p><h2>Featured boards<span style="color:var(--ochre)">.</span></h2><p class="section-intro">Explore boards for current AMD and Intel builds, plus a compact legacy platform. Check socket, processor generation, and memory compatibility before ordering.</p></div>
         <a class="text-link" href="#products">Explore catalogue <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12h14M12.5 5.5l6.5 6.5-6.5 6.5"/></svg></a>
       </div>
       <div class="store-toolbar">
@@ -431,7 +523,7 @@
             <p class="feedback-form-error" id="feedbackFormError" role="alert" hidden>Please check the required fields and try again.</p>
             <p class="feedback-form-legal">Please avoid including passwords, payment information, or other sensitive details.</p>
           </form>
-          <div class="feedback-success" id="feedbackSuccess" role="status" aria-live="polite" hidden><span class="feedback-success-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg></span><p class="section-label">Submission complete</p><h3>Your feedback has been submitted.</h3><p>Thank you for taking the time to share your thoughts with AURUM ELECTRONICS. Your feedback helps us make hardware information clearer.</p><div class="feedback-success-next"><strong>What happens next</strong><span>We appreciate your input and will use it to improve product information and the customer experience.</span></div><button class="feedback-reset button" type="button" id="feedbackSubmitAnother">Write another message</button></div>
+          <div class="feedback-success" id="feedbackSuccess" role="status" aria-live="polite" hidden><span class="feedback-success-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 6"/></svg></span><p class="section-label">Submission complete</p><h3>Your feedback has been submitted.</h3><p>Thank you for taking the time to share your thoughts with BYTE SHOP. Your feedback helps us make hardware information clearer.</p><div class="feedback-success-next"><strong>What happens next</strong><span>We appreciate your input and will use it to improve product information and the customer experience.</span></div><button class="feedback-reset button" type="button" id="feedbackSubmitAnother">Write another message</button></div>
         </div>
       </section>
       <div class="feedback-closing"><div><p class="section-label">Thanks for helping us grow</p><h2>Better starts with<br/><em>a conversation.</em></h2></div><button class="button" type="button" data-scroll-feedback-form>Raise your feedback <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
@@ -442,16 +534,16 @@
     <div class="wrap portfolio-wrap">
       <section class="portfolio-masthead" aria-labelledby="portfolio-title">
         <p class="analysis-title-label">Our story</p>
-        <div class="portfolio-brand-mark" role="img" aria-label="AURUM ELECTRONICS brand emblem"><img src="assets/aurum-emblem.png" alt="" loading="eager" /></div>
-        <p class="portfolio-wordmark">AURUM<span> ELECTRONICS</span></p>
+        <div class="portfolio-brand-mark" role="img" aria-label="BYTE SHOP brand emblem"><img src="assets/byte-shop-logo.png" alt="" loading="eager" /></div>
+        <p class="portfolio-wordmark">BYTE SHOP<span> ELECTRONICS</span></p>
         <h1 id="portfolio-title">Build with<br/><em>more confidence.</em></h1>
-        <p class="portfolio-masthead-copy">AURUM ELECTRONICS is built around a simple idea: choosing PC components should feel clear, informed, and approachable. We focus on practical specifications, platform compatibility, and hardware details that help people plan their next build or upgrade.</p>
+        <p class="portfolio-masthead-copy">BYTE SHOP is built around a simple idea: choosing PC components should feel clear, informed, and approachable. We focus on practical specifications, platform compatibility, and hardware details that help people plan their next build or upgrade.</p>
         <span class="portfolio-note"><span class="portfolio-note-dot"></span> PC components · Considered by design</span>
       </section>
 
       <section class="portfolio-story-panel" aria-label="Our approach to PC hardware">
         <div class="portfolio-story-copy">
-          <p class="section-label">The thought behind AURUM</p>
+          <p class="section-label">The thought behind BYTE SHOP</p>
           <h2>A stronger foundation for the systems you build.</h2>
           <p>From an everyday desktop to a planned upgrade, the motherboard sets the foundation. We focus on clear platform labels, practical feature summaries, and model details that are easy to compare.</p>
           <p>We believe a good PC build starts with compatibility: matching the processor socket, memory type, storage, and expansion needs before choosing the rest of the system.</p>
@@ -459,16 +551,16 @@
         </div>
         <div class="portfolio-story-photo">
           <img src="assets/motherboard-installation.jpg" alt="A motherboard being prepared for a PC build" loading="lazy" />
-          <span class="portfolio-photo-caption"><span>AURUM ELECTRONICS</span><span>01 / OUR APPROACH</span></span>
+          <span class="portfolio-photo-caption"><span>BYTE SHOP</span><span>01 / OUR APPROACH</span></span>
         </div>
       </section>
 
       <section class="portfolio-founders" aria-labelledby="founders-title">
-        <div class="portfolio-section-head"><div><p class="section-label">Meet the owner</p><h2 id="founders-title">Technical curiosity.<br/><em>A clear ambition.</em></h2></div><p>AURUM ELECTRONICS is led by Dhanvith, with a focus on approachable hardware information, thoughtful product presentation, and practical component choices.</p></div>
+        <div class="portfolio-section-head"><div><p class="section-label">Meet the owner</p><h2 id="founders-title">Technical curiosity.<br/><em>A clear ambition.</em></h2></div><p>BYTE SHOP is led by Dhanvith, with a focus on approachable hardware information, thoughtful product presentation, and practical component choices.</p></div>
         <div class="portfolio-owner-grid">
           <article class="portfolio-owner-card">
             <div class="portfolio-owner-top"><img class="portfolio-owner-photo" src="assets/motherboard-layout-guide.jpg" alt="Motherboard feature layout representing the founder’s hardware focus" loading="lazy" /><div><p class="portfolio-owner-role">Founder &amp; owner</p><h3>Dhanvith</h3><p class="portfolio-owner-location">Hardware · Product &amp; Experience</p></div></div>
-            <p class="portfolio-owner-bio">Dhanvith leads AURUM ELECTRONICS with a focus on practical PC components, clear specifications, and a straightforward shopping experience. The goal is to make compatibility easier to understand—whether someone is assembling an everyday desktop, planning an upgrade, or exploring a compact build.</p>
+            <p class="portfolio-owner-bio">Dhanvith leads BYTE SHOP with a focus on practical PC components, clear specifications, and a straightforward shopping experience. The goal is to make compatibility easier to understand—whether someone is assembling an everyday desktop, planning an upgrade, or exploring a compact build.</p>
             <div class="portfolio-owner-tags"><span>PC components</span><span>Clear specifications</span><span>Build with purpose</span></div>
           </article>
         </div>
@@ -478,11 +570,11 @@
     </div>
   </main>
 
-  <footer><div class="wrap footer-inner"><span class="footer-brand">AURUM ELECTRONICS / PC components</span><span>Clear specifications. Better builds.</span><span>© 2026 AURUM ELECTRONICS</span></div></footer>
+  <footer><div class="wrap footer-inner"><span class="footer-brand">BYTE SHOP / PC components</span><span>Clear specifications. Better builds.</span><span>© 2026 BYTE SHOP</span></div></footer>
 
   <div class="drawer-scrim" id="drawerScrim" aria-hidden="true"></div>
   <aside class="drawer" id="siteDrawer" aria-label="Main menu" aria-hidden="true">
-    <div class="drawer-head"><span class="drawer-brand">AURUM ELECTRONICS <span style="color:var(--ochre)">/</span> Menu</span><button class="close-menu" id="closeMenu" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <div class="drawer-head"><span class="drawer-brand">BYTE SHOP <span style="color:var(--ochre)">/</span> Menu</span><button class="close-menu" id="closeMenu" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
     <section class="drawer-summary" aria-label="Store performance overview">
       <div class="drawer-summary-top"><span class="drawer-summary-label">Store performance</span><span class="drawer-period">Last 6 weeks</span></div>
       <div class="drawer-revenue" id="drawerRevenueValue">₹5,00,000</div><p class="drawer-revenue-sub">Total revenue across the reporting period</p>
@@ -617,7 +709,7 @@
           img.dataset.fallbackApplied = 'true';
           img.src = productImageFallback;
           img.classList.add('product-fallback-image');
-          img.alt = 'AURUM ELECTRONICS motherboard';
+          img.alt = 'BYTE SHOP motherboard';
         }
       }, true);
       let activeProduct = null;
@@ -668,7 +760,7 @@
             <div class="product-assurance"><div class="product-assurance-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 19 6v5c0 4.5-2.8 7.7-7 10-4.2-2.3-7-5.5-7-10V6l7-3Z"/><path d="m9 12 2 2 4-4"/></svg><span>Clear product<br>information</span></div><div class="product-assurance-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16v13H4zM8 7V4h8v3"/><path d="M8 12h8"/></svg><span>Designed for<br>practical builds</span></div><div class="product-assurance-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Current<br>availability</span></div></div>
           </div>
         </section>
-        <section class="product-detail-section"><div class="section-head"><div><p class="section-label">You may also like</p><h2>More from the edit<span style="color:var(--ochre)">.</span></h2><p class="section-intro">Explore other motherboards from the AURUM ELECTRONICS catalogue.</p></div><button type="button" class="text-link" data-back-store>Back to all products <span aria-hidden="true">→</span></button></div><div class="product-related-grid" id="relatedProducts"></div></section>
+        <section class="product-detail-section"><div class="section-head"><div><p class="section-label">You may also like</p><h2>More from the edit<span style="color:var(--ochre)">.</span></h2><p class="section-intro">Explore other motherboards from the BYTE SHOP catalogue.</p></div><button type="button" class="text-link" data-back-store>Back to all products <span aria-hidden="true">→</span></button></div><div class="product-related-grid" id="relatedProducts"></div></section>
         <section class="product-detail-section" style="padding-top:12px"><div class="analysis-panel" style="padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:20px"><div><p class="panel-title">Need help with this component?</p><p class="panel-caption">Send us a question about this motherboard or its compatibility.</p></div><button class="button button-secondary" type="button" data-go-feedback>Contact us <span aria-hidden="true">↗</span></button></div></section>`;
       }
       function renderProductDetail(id) {
@@ -757,11 +849,11 @@
         const categoryRows = categoryPerformance.map(item => `<div class="category-row"><div><div class="category-name"><span class="category-swatch" style="background:#2675db"></span>${escapeHTML(item.category)}</div><div class="category-sub">${item.units} units across ${item.count} motherboards</div></div><div class="category-amount">${currency(item.revenue)}<small>${item.available} available</small></div></div>`).join('');
         const stockPct = productCatalog.length ? availableCount / productCatalog.length * 100 : 0;
         host.innerHTML = `
-          <section class="analysis-head" aria-labelledby="analysisTitle"><div><p class="analysis-title-label">AURUM ELECTRONICS / Performance overview</p><h1 class="analysis-title" id="analysisTitle">Store <em>analysis.</em></h1><p class="analysis-subtitle">An at-a-glance view of revenue performance, sales mix, profitability and current product availability.</p></div><div class="analysis-head-tools"><span class="period-pill">Last 6 weeks <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></div></section>
+          <section class="analysis-head" aria-labelledby="analysisTitle"><div><p class="analysis-title-label">BYTE SHOP / Performance overview</p><h1 class="analysis-title" id="analysisTitle">Store <em>analysis.</em></h1><p class="analysis-subtitle">An at-a-glance view of revenue performance, sales mix, profitability and current product availability.</p></div><div class="analysis-head-tools"><span class="period-pill">Last 6 weeks <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></div></section>
           <section class="catalogue-source-strip" aria-label="Store overview"><span class="catalogue-source-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16v13H4z"/><path d="M8 9h8M8 13h5"/><path d="m15.5 16 1.5 1.5 3-3"/></svg></span><div class="catalogue-source-copy"><strong>Store performance</strong><p>Sales, category performance and current availability in one place.</p></div><div class="catalogue-source-counts"><span><strong>${productCatalog.length}</strong><small>Products</small></span><span><strong>${categories.length}</strong><small>Categories</small></span><span><strong>${soldOutCount}</strong><small>Out of stock</small></span></div></section>
           <section class="metric-grid" aria-label="Store performance metrics"><article class="metric-card"><div class="metric-top"><span class="metric-label">Total revenue</span><span class="metric-icon">₹</span></div><div class="metric-value">${currency(totalRevenue)}</div><div class="metric-foot"><span class="metric-change">↗ 12.8%</span>vs. previous period</div></article><article class="metric-card"><div class="metric-top"><span class="metric-label">Products sold</span><span class="metric-icon">▧</span></div><div class="metric-value">${unitsSold} <span style="font-size:14px;color:var(--forest-3);font-weight:500;letter-spacing:0">units</span></div><div class="metric-foot"><span class="metric-change">${storeReport.orders} orders</span>in this period</div></article><article class="metric-card"><div class="metric-top"><span class="metric-label">Total profit</span><span class="metric-icon">↗</span></div><div class="metric-value">${currency(storeReport.totalProfit)}</div><div class="metric-foot"><span class="metric-change">${profitMargin.toFixed(1)}%</span>net margin</div></article><article class="metric-card"><div class="metric-top"><span class="metric-label">Average order value</span><span class="metric-icon">▤</span></div><div class="metric-value">${currency(averageOrderValue)}</div><div class="metric-foot"><span class="metric-change neutral">${storeReport.orders} orders</span>average order value</div></article></section>
           <section class="analysis-main-grid" aria-label="Revenue and category performance"><article class="analysis-panel revenue-panel"><div class="panel-head"><div><p class="panel-title">Revenue trend</p><p class="panel-caption">Weekly revenue across the last six weeks</p></div><div class="panel-total">${currency(totalRevenue)}<small>Total revenue</small></div></div><div style="padding:0 12px 0 8px"><svg class="revenue-chart" viewBox="0 0 760 300" role="img" aria-label="Revenue chart for six weeks; totals reconcile to ${currency(totalRevenue)}"><defs><linearGradient id="revenueFade" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2675db" stop-opacity=".20"/><stop offset="100%" stop-color="#2675db" stop-opacity=".015"/></linearGradient></defs>${yTicks}<line class="axisline" x1="60" y1="${chartBottom}" x2="730" y2="${chartBottom}"/><path class="area" d="${weeklyArea}"/><path class="line" d="${weeklyPath}"/>${weeklyLabels}</svg></div><div class="chart-foot"><span class="chart-status">Revenue <strong>trend</strong></span><span>Peak week <strong>${currency(storeReport.weeklyRevenue[5])}</strong></span></div></article>
-          <article class="analysis-panel category-panel"><div class="panel-head"><div><p class="panel-title">Category revenue</p><p class="panel-caption">Sales value by hardware category</p></div><span class="panel-tag">${categories.length} categories</span></div><svg class="aurum-3d-chart" viewBox="0 0 540 286" role="img" aria-label="Isometric bar chart of revenue by hardware category">${categoryBars}</svg><div class="analysis-insight-foot"><span>Category contribution</span><strong>${currency(totalRevenue)} total</strong></div></article></section>
+          <article class="analysis-panel category-panel"><div class="panel-head"><div><p class="panel-title">Category revenue</p><p class="panel-caption">Sales value by hardware category</p></div><span class="panel-tag">${categories.length} categories</span></div><svg class="byte-shop-3d-chart" viewBox="0 0 540 286" role="img" aria-label="Isometric bar chart of revenue by hardware category">${categoryBars}</svg><div class="analysis-insight-foot"><span>Category contribution</span><strong>${currency(totalRevenue)} total</strong></div></article></section>
           <section class="analysis-bottom-grid" aria-label="Product and inventory details"><article class="analysis-panel"><div class="panel-head"><div><p class="panel-title">Top-performing products</p><p class="panel-caption">Units sold and sales value by product</p></div><span class="panel-tag">Top 5</span></div><div class="table-scroll"><table class="analysis-table"><thead><tr><th>Product</th><th>Units</th><th>Revenue</th><th>Current stock</th></tr></thead><tbody>${tableRows}</tbody></table></div></article><article class="analysis-panel health-panel"><div class="panel-head"><div><p class="panel-title">Inventory overview</p><p class="panel-caption">Current motherboard availability in My Store</p></div><span class="panel-tag">Current catalogue</span></div><div class="health-content"><div class="health-score"><div class="health-ring" style="background:conic-gradient(var(--stock) 0deg ${stockPct*3.6}deg,#e3eadf ${stockPct*3.6}deg 360deg)"><strong>${Math.round(stockPct)}%</strong></div><div class="health-copy"><h4>${availableCount ? 'Stock is available' : 'Restock required'}</h4><p>${availableCount} of ${productCatalog.length} listed motherboards are currently available to order.</p></div></div><div class="health-items"><div class="health-item"><div><div class="health-label">Products listed<small>Total motherboards in the catalogue</small></div><div class="mini-track"><span style="width:100%"></span></div></div><strong class="health-value">${productCatalog.length}</strong></div><div class="health-item"><div><div class="health-label">Out of stock<small>Items awaiting availability</small></div><div class="mini-track"><span style="width:${productCatalog.length ? soldOutCount/productCatalog.length*100 : 0}%;background:#8193ad"></span></div></div><strong class="health-value">${soldOutCount}</strong></div><div class="health-item"><div><div class="health-label">Net margin<small>Profit relative to revenue</small></div><div class="mini-track"><span style="width:${Math.min(100, profitMargin)}%"></span></div></div><strong class="health-value">${profitMargin.toFixed(1)}%</strong></div></div></div><div class="category-summary">${categoryRows}</div></article></section>`;
       }
       renderCatalogueAnalysis();
@@ -884,7 +976,7 @@
           const successHeading = feedbackSuccess.querySelector('h3');
           const successCopy = feedbackSuccess.querySelector('p:not(.section-label)');
           if (successHeading) successHeading.textContent = 'Your feedback has been submitted.';
-          if (successCopy) successCopy.textContent = `Thank you${submittedName ? `, ${submittedName}` : ''}, for taking the time to share your thoughts with AURUM ELECTRONICS. Your feedback helps us make hardware information clearer.`;
+          if (successCopy) successCopy.textContent = `Thank you${submittedName ? `, ${submittedName}` : ''}, for taking the time to share your thoughts with BYTE SHOP. Your feedback helps us make hardware information clearer.`;
           feedbackSuccess.hidden = false;
           showToast('Feedback submitted successfully');
           scrollToFeedback('#feedback-form-section');
